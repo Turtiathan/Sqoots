@@ -1,0 +1,126 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(SqootsWebsiteBackground.jpg);
+}
+
+h1 {
+  font-size: 48px;
+  color:#00BFFF;
+  text-shadow:    
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+}
+
+h2 {
+  font-size: 24px;
+  color:#00BFFF;
+  text-shadow: 
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+}
+
+h3{
+  color:#00BFFF;
+  text-shadow: 
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+}
+
+.navigation {
+  background-color: #A9A9A9;
+  background-position: left top;
+  border: 3px solid black;
+  max-width: 100%;
+  min-width: 400px;
+  max-height: 20%;
+  min-height: 200px;
+  text-align: center;
+  padding-right: 20%;
+}
+
+.navigation h1 {
+  padding: 0;
+  margin-top: 1%;
+}
+
+.navigation h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation a {
+  padding: 1%;
+  float: right;
+}
+
+.main {
+  background-color: #A9A9A9;
+  border: 3px solid black;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 750px;
+  height: 500px;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  float: left;
+  position: absolute;
+}
+
+.featuredItem {
+  background-color: #A9A9A9;
+  border: 3px solid black;
+  min-width: 30%;
+  width: 50%;
+  margin-top: 600px;
+  margin-left: 50px;
+  height: 900px;
+  text-align: center;
+  float: left;
+}
+
+.featuredItem h2 {
+  text-align: center;
+}
+
+.featuredItem h3 {
+  text-align: center;
+  color: white;
+}
+
+.featuredItem img {
+  max-width: 50%;
+}
+
+.featuredItem p {
+  text-align: center;  
+}
+
+.categories {
+  background-color: #A9A9A9;
+  border: 3px solid black;
+  margin-top: 50px;
+  margin-left: 1050px;
+  margin-right: 50px;
+  min-width: 230px;
+  height: 1500px;
+  text-align: center;
+}
+
+.categories h3 {
+  float: left;
+}
+
+.categories a {
+  float: right;
+  margin: 10%;
+}
